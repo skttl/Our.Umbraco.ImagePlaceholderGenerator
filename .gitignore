@@ -281,3 +281,5 @@ paket-files/
 __pycache__/
 *.pyc
 >>>>>>> Add .gitignore and .gitattributes.
+Website/App_Browsers/
+Website/App_Data/

@@ -1,0 +1,8 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	@using Our.Umbraco.ImagePlaceholderGenerator.Core;
+@{
+    Layout = "Master.cshtml";
+}
+@CurrentPage.GetGridHtml("content", "fanoe")
+
+<img src="@Url.GetPlaceholderUri("/media/1044/14441035391_7ee1d0d166_h_darken.jpg")" width="400" />
